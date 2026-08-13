@@ -167,3 +167,7 @@ code {
 .glow-hover:hover {
   filter: drop-shadow(0 0 8px var(--accent));
 }
+
+html {
+  scroll-behavior: smooth;
+}
