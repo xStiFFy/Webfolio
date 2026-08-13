@@ -15,13 +15,7 @@ function Navbar() {
                 </a>
                 <a href="#projects" className="glow-hover">
                     Projects
-                </a>
-                <a href="#experience" className="glow-hover">
-                    Experience
-                </a>
-                <a href="#skills" className="glow-hover">
-                    Skills
-                </a>
+                </a>               
                 <a href="#contact" className="glow-hover">
                     Contact
                 </a>

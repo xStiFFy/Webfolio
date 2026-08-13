@@ -93,19 +93,6 @@
   box-shadow: 0 0 18px var(--accent-bg);
 }
 
-.contact-footer {
-  display: flex;
-  justify-content: center;
-
-  padding-top: 24px;
-
-  border-top: 1px solid var(--border);
-
-  color: var(--text);
-
-  font-size: 13px;
-}
-
 @media (max-width: 1024px) {
   .contact {
     padding: 72px 40px 28px;

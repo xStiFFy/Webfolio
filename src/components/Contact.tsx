@@ -2,7 +2,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <footer className="contact" id="contact">
+    <section className="contact" id="contact">
       <div className="contact-content">
         <h1 className="contact-title">Contact</h1>
 
@@ -54,11 +54,7 @@ function Contact() {
           </a>
         </div>
       </div>
-
-      <div className="contact-footer">
-        <p>© 2026 Mitchell Gegich</p>
-      </div>
-    </footer>
+    </section>
   );
 }
 
