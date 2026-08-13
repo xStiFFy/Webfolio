@@ -52,7 +52,7 @@ function Hero() {
                         View Projects
                     </a>
 
-                    <a href="/resume.pdf" className="hero-button hero-button-secondary glow-hover">
+                    <a href="/Mitchell_Gegich_Resume.pdf" className="hero-button hero-button-secondary glow-hover" target="_blank" rel="noreferrer">
                         View Resume
                     </a>
                 </div>
