@@ -1,0 +1,200 @@
+.contact {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 96px 64px 32px;
+
+  border-top: 1px solid var(--border);
+
+  text-align: left;
+}
+
+.contact-content {
+  max-width: 900px;
+
+  margin-bottom: 80px;
+}
+
+.contact-title {
+  margin: 0 0 24px;
+
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: -1px;
+
+  color: var(--text-h);
+}
+
+.contact-text {
+  max-width: 650px;
+
+  margin-bottom: 32px;
+
+  color: var(--text);
+
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 11px 20px;
+
+  color: var(--text-h);
+  background: var(--bg-secondary);
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  font-weight: 600;
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.contact-link:hover {
+  color: var(--accent-hover);
+
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+
+  box-shadow: 0 0 14px rgba(217, 70, 239, 0.12);
+
+  transform: translateY(-2px);
+}
+
+.contact-link-primary {
+  color: #000;
+
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.contact-link-primary:hover {
+  color: #000;
+
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+
+  box-shadow: 0 0 18px var(--accent-bg);
+}
+
+.contact-footer {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 24px;
+
+  border-top: 1px solid var(--border);
+
+  color: var(--text);
+
+  font-size: 13px;
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    padding: 72px 40px 28px;
+  }
+
+  .contact-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 56px 24px 24px;
+  }
+
+  .contact-title {
+    font-size: 32px;
+  }
+
+  .contact-text {
+    font-size: 16px;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contact-link {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contact-content {
+    margin-bottom: 56px;
+  }
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+
+  margin: 32px 0;
+}
+
+.contact-phone {
+  color: var(--text-h);
+
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -1px;
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    text-shadow 0.2s ease;
+}
+
+.contact-email {
+  color: var(--text);
+
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.3;
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    text-shadow 0.2s ease;
+}
+
+.contact-phone:hover,
+.contact-email:hover {
+  color: var(--accent-hover);
+
+  text-shadow: 0 0 14px var(--accent-bg);
+}
+
+@media (max-width: 768px) {
+  .contact-phone {
+    font-size: 32px;
+  }
+
+  .contact-email {
+    font-size: 20px;
+  }
+}
