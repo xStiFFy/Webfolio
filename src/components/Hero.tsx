@@ -12,7 +12,7 @@ function Hero() {
                     horizonColor="#5227FF"
                     waveColor="#FF9FFC"
                     crestColor="#FFFFFF"
-                    speed={.5}
+                    speed={.2}
                     amplitude={2.5}
                     waveScale={1}
                     waveRatio={0.9}

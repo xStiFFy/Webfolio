@@ -1,5 +1,6 @@
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
+import Projects from '../components/Projects'
 import WebThreads from '../components/effects/WebThreads'
 
 function Homepage() {
@@ -37,7 +38,10 @@ function Homepage() {
 
                 <Hero />
 
+                <Projects />
             </div>
+
+            
         </>
     )
 }
