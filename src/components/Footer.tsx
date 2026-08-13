@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-built-with">
-        <span>Made with</span>
+        <span>Built with</span>
 
         <a
           href="https://react.dev/"
@@ -25,7 +25,7 @@ function Footer() {
 
         <span className="footer-separator">•</span>
 
-        <span>Developed with</span>
+        <span>Powered by</span>
 
         <a
           href="https://vite.dev/"
